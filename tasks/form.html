@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+
+</head>
+<style>
+    body{
+        padding:0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    table{
+        position:absolute;
+        left: 0%;
+        top: 60%;
+        transform: translate();
+        border-collapse: collapse;
+        
+        border: 1px solid grey;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0,2), -px -px 8px rgba(0,0,0,0,2)
+    }
+    tr{
+        transition : all .2ps ease-in;
+        cursor: pointer;
+    }
+    th,td{
+        padding: 12px;
+        text-align: left;
+        border-bottom:1px solid ;
+    }
+    #header{
+        background-color: aquamarine;
+        color: black;
+    }
+    h1{
+        font-weight: 500;
+        text-align: center;
+        background-color: aquamarine;
+        color: black;
+        padding: 0px 0px;
+    }
+    tr:hover{
+        background-color: azure;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0,0,0,0,2), -px -px 8px rgba(0,0,0,0,2)
+    }
+</style>
+<body>
+   <fieldset>
+  <h1> contact form </h1>
+  <p>
+      <label for="firstname ">first name</label> 
+      <input type="text" name="username" id="username"> 
+
+      <label for="firstname ">last name</label> 
+      <input type="text" name="username" id="username">
+  </p>
+  <p>
+    <label for=" city ">address </label> <br>
+    <input type="text" name="lastname" id="lastname"> 
+</p>
+
+<p>
+    <label for=" city ">city </label> <br>
+    <input type="text" name="lastname" id="lastname"> 
+</p>
+<p>
+    <label for="state">state</label> <br>
+    <input type="text" name="lastname" id="lastname"> 
+</p>
+<p>
+    <label for="zip"> zip </label>  <br>
+    <input type="text" name="lastname" id="lastname"> 
+</p>
+<p>
+    employee type
+   <input type="radio" id="salary" name="employee" value="salary">
+   <lable for="salary"> salary</lable>
+   <input type="radio" id="salary" name="employee" value="salary">
+   <lable for="salary"> own business </lable>
+
+</p>
+<h3></h3>
+   
+<table>
+    <tr id="header">
+        <th> programing language </th>
+    </tr>
+
+    <tr>
+        <th> javascript</th>
+        <td> angular js</td>
+        <td> react js</td>
+        <td>  vue js</td>
+    </tr>
+    <tr>
+        <th> python</th>
+        <td> Django Framework </td>
+        <td>Flask Framework </td>
+    </tr>
+
+    <tr>
+        <th> java</th>
+        <td> spring </td>
+        <td> maven </td>
+        <td>  Hibernate </td>
+    </tr>
+
+    <tr>
+        <th> database </th>
+        <td> mysql </td>
+        <td> mongoDB </td>
+        <td>  cansandra </td>
+    </tr>
+    <p> <input type="submit" value="submit"> </p>
+</table>
+</fieldset>
+
+</body>
+</html>
+
+
